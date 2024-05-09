@@ -11,6 +11,9 @@ open3d = "^0.18.0"
 numpy = "^1.26.4"
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
